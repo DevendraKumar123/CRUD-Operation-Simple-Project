@@ -12,7 +12,7 @@ $sql = " UPDATE student SET sname = '{$stu_name}' ,saddress = '{$stu_address}' ,
 
 $result = mysqli_query($conn, $sql) or die ("Query Unsuccessfull");
 
-header("location: http://localhost/php_first/index.php");
+header("location: http://localhost/crud%20operation/index.php");
 mysqli_close($conn);
 
 ?>

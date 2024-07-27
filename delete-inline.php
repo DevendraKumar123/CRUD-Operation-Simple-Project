@@ -7,6 +7,6 @@ $conn =  mysqli_connect("localhost:3307","root","","crud") or die("Connection fa
 $sql = "DELETE FROM student WHERE sid = {$stu_id}";
 
 $result = mysqli_query($conn, $sql) or die ("Query Unsuccessfull");
-header("location: http://localhost/php_first/index.php");
+header("location: http://localhost/crud%20operation/index.php");
 mysqli_close($conn);
 ?>

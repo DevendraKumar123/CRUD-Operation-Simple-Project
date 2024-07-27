@@ -19,9 +19,7 @@
 
 
                 $sql = "select * from student_class";
-            
                 $result = mysqli_query($conn, $sql) or die ("Query Unsuccessfull");
-
                 while($row=mysqli_fetch_assoc($result)){
                 ?>
                 <option value="<?php echo $row['cid'];?>"><?php echo $row['cname'];?></option>

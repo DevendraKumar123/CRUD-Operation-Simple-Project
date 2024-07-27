@@ -11,7 +11,7 @@ $sql = "INSERT INTO  student(sname,saddress,sclass,sphone) VALUES ('$stu_name','
 
 $result = mysqli_query($conn, $sql) or die ("Query Unsuccessfull");
 
-header("location: http://localhost/php_first/index.php");
+header("location: http://localhost/crud%20operation/index.php");
 mysqli_close($conn);
 
 ?>
